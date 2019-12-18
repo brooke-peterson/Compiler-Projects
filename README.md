@@ -1,4 +1,4 @@
-#### By: Brooke Peterson, CyberCorps Class of 2019 brooke.o.peterson@gmail.com
+#### By: Brooke Peterson brooke.o.peterson@gmail.com
 
 # Project 1 - Lexical Analyzer
 
