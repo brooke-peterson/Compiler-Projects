@@ -352,6 +352,7 @@ The item that needs type checking preformed in __factor()__ is the first ```NOT`
 | BOOL      | BOOL       |
 | ERR       | ERR           |
 | ERR*   | OTHER      |
+
 The asterisk means "print this error as a SEMERR"
 
 Notice that the case with the NOT key word has a recursive call in the production:
@@ -431,6 +432,7 @@ Thus the truth table for the OPENBRACK (since an array follows an ```[``` ) case
 | INT       | AINT       | INT
 | REAL      | AREAL      | INT
 | ERR       | ERR        | or ERR
+
 The asterisk means "print this error as a SEMERR"
 
 Unlike the recursive nature of the ```factor()``` example, the expression following the brackets will inherit it's type from ```expression()``` (which calls ```simple_expression()```, which calls ```term()```......ultimately the)
