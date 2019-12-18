@@ -345,7 +345,8 @@ __Note:__ Notice in my list of functions written for Project 2, these are all th
 
 The item that needs type checking preformed in __factor()__ is the first ```NOT```. NOT is a boolean operator, so, logically, whatever token follows __MUST__ be a boolean, or, an error has occurred. 
 
-**Truth table for factor():**
+**Truth table for factor():**   
+
 | Type      | factor() |
 | ----------- | ----------- |
 | BOOL      | BOOL       |
@@ -421,7 +422,8 @@ The ```factor_prime()``` production has the reference to an array. In Pascal, an
 Thus the truth table for the OPENBRACK (since an array follows an ```[``` ) case of ```factor_prime()``` is:
 
 
-**Truth table for factor_prine():**
+**Truth table for factor_prine():**   
+
 | Type      | inherit    | factor() |
 | ----------| -----------|----------- |
 | ERR*      | ! AINT ...     | --
